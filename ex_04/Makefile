@@ -1,7 +1,7 @@
 # Compiler and flags
 CC = gcc
 CFLAGS = -Wall -Wextra -g
-LIBS = -lm –lpthread -lcurl -lpaho-mqtt3c -lcjson
+LIBS = -lm -lpthread -lcurl -lpaho-mqtt3c -lcjson
 
 # Target application name
 TARGET = iot_app
