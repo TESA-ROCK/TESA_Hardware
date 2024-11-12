@@ -5,7 +5,7 @@
 // private constants
 const char base_topic[] = "tgr2024/team/%s";
 const char MQTT_BROKER[] = "tcp://broker.emqx.io:1883";
-const char MQTT_CLIENTID[] = "TGR2024_Supachai";
+const char MQTT_CLIENTID[] = "TGR2024_TESA_ROCK";
 
 
 void *mqtt_thr_fcn( void *ptr ) {
@@ -36,6 +36,9 @@ void *mqtt_thr_fcn( void *ptr ) {
         /* TBD */
         printf("Shared data: %d\n", shared_value);
         value = shared_value;
+        pthread_mutex_lock(&data_cond_mutex);
+        pthread_cond_wait(&data_cond, &data_cond_mutex);
+        pthread_mutex_unlock(&data_cond_mutex);
         /* TBD */
         cJSON *json = cJSON_CreateObject();
         cJSON_AddStringToObject(json, "team", (char*)ptr);
