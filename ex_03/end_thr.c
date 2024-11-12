@@ -21,6 +21,6 @@ void *end_thr_fcn( void *ptr ) {
         time (&now);
         timeinfo = localtime ( &now );
         printf("Final result: %f at %s\n", avg_shared_data, asctime (timeinfo));
-        pthread_mutex_unlock(&(&avg_data_cond_mutex);
+        pthread_mutex_unlock(&avg_data_cond_mutex);
     }
 }

@@ -33,10 +33,10 @@ void *mid_thr_fcn( void *ptr ) {
             }
             avg_shared_data /= DATA_BUF_SZ;
             printf("Report data %.2f\n", avg_shared_data);
-            pthread_mutex_lock(&(&avg_data_cond_mutex);
+            pthread_mutex_lock(&avg_data_cond_mutex);
             pthread_cond_signal(&avg_data_cond);
             pthread_mutex_unlock(&avg_data_cond_mutex);
         }
-        pthread_mutex_unlock(&(&data_cond_mutex);
+        pthread_mutex_unlock(&data_cond_mutex);
     }
 }
