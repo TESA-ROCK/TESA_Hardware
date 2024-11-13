@@ -5,7 +5,7 @@
  * File: calcEMA_terminate.h
  *
  * MATLAB Coder version            : 24.2
- * C/C++ source code generated on  : 13-Nov-2024 10:25:24
+ * C/C++ source code generated on  : 13-Nov-2024 10:50:46
  */
 
 #ifndef CALCEMA_TERMINATE_H

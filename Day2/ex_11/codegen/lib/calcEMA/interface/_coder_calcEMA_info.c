@@ -5,7 +5,7 @@
  * File: _coder_calcEMA_info.c
  *
  * MATLAB Coder version            : 24.2
- * C/C++ source code generated on  : 13-Nov-2024 10:25:24
+ * C/C++ source code generated on  : 13-Nov-2024 10:50:46
  */
 
 /* Include Files */
@@ -68,7 +68,7 @@ mxArray *emlrtMexFcnProperties(void)
                     "D:\\Document\\Emptiness\\Competition\\TESA Top Gun Rally "
                     "18\\Programming\\TESA_Hardware\\Day2\\ex_11\\calcEMA.m"));
   emlrtSetField(xEntryPoints, 0, "TimeStamp",
-                emlrtMxCreateDoubleScalar(739569.42649305554));
+                emlrtMxCreateDoubleScalar(739569.45039351855));
   emlrtSetField(xEntryPoints, 0, "Constructor",
                 emlrtMxCreateLogicalScalar(false));
   emlrtSetField(xEntryPoints, 0, "Visible", emlrtMxCreateLogicalScalar(true));

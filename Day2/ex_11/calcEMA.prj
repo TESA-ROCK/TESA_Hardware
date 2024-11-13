@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2024a">
-  <configuration build-checksum="2467415712" file="D:\Document\Emptiness\Competition\TESA Top Gun Rally 18\Programming\TESA_Hardware\Day2\ex_11\calcEMA.prj" location="D:\Document\Emptiness\Competition\TESA Top Gun Rally 18\Programming\TESA_Hardware\Day2\ex_11" name="calcEMA" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="2857131890" file="D:\Document\Emptiness\Competition\TESA Top Gun Rally 18\Programming\TESA_Hardware\Day2\ex_11\calcEMA.prj" location="D:\Document\Emptiness\Competition\TESA Top Gun Rally 18\Programming\TESA_Hardware\Day2\ex_11" name="calcEMA" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
@@ -616,22 +616,22 @@
     <param.AutoInferUnboundedSizeThreshold>2048</param.AutoInferUnboundedSizeThreshold>
     <param.EnableFixedPointStep>false</param.EnableFixedPointStep>
     <param.EnableScreener>true</param.EnableScreener>
-    <param.AnnotationChecksum>3561017096</param.AnnotationChecksum>
+    <param.AnnotationChecksum>2791695204</param.AnnotationChecksum>
     <var.LegacyTarget />
     <var.MirrorOnOpen>false</var.MirrorOnOpen>
     <param.FixedPointEnabled>false</param.FixedPointEnabled>
     <var.redirectedInputTypeData />
-    <var.DismissScreener>true</var.DismissScreener>
+    <var.DismissScreener>false</var.DismissScreener>
     <param.unifiedParamStorage />
     <param.hdlParamStorage />
     <var.gc.lastOutputRoot>codegen\lib\calcEMA</var.gc.lastOutputRoot>
     <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>517921685</var.gc.preBuildChecksum>
+    <var.gc.preBuildChecksum>662913607</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot>codegen\mex\calcEMA</var.cfi.lastOutputRoot>
-    <var.cfi.preBuildChecksum>3738322689</var.cfi.preBuildChecksum>
+    <var.cfi.preBuildChecksum>3884965587</var.cfi.preBuildChecksum>
     <var.lastCfiTestSnippet>test_calcEMA</var.lastCfiTestSnippet>
     <var.outdatedOnRestore>false</var.outdatedOnRestore>
-    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;D:\Document\Emptiness\Competition\TESA Top Gun Rally 18\Programming\TESA_Hardware\Day2\ex_11\calcEMA.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;3888191731&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
+    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;D:\Document\Emptiness\Competition\TESA Top Gun Rally 18\Programming\TESA_Hardware\Day2\ex_11\calcEMA.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;1165987694&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
     <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;D:\Document\Emptiness\Competition\TESA Top Gun Rally 18\Programming\TESA_Hardware\Day2\ex_11\calcEMA.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.NoDefaultJIT>false</param.NoDefaultJIT>
@@ -765,6 +765,7 @@
       <var.MirrorOnOpen />
       <param.FixedPointEnabled />
       <var.redirectedInputTypeData />
+      <var.DismissScreener />
       <param.unifiedParamStorage />
       <param.hdlParamStorage />
       <var.outdatedOnRestore />
@@ -876,7 +877,7 @@
     </unset>
     <fileset.entrypoints>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\calcEMA.m">
-        <Marker>1731468291073</Marker>
+        <Marker>1731469810654</Marker>
       </file>
     </fileset.entrypoints>
     <fileset.testbench>

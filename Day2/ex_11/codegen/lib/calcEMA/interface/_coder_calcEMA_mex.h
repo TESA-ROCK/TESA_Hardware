@@ -5,7 +5,7 @@
  * File: _coder_calcEMA_mex.h
  *
  * MATLAB Coder version            : 24.2
- * C/C++ source code generated on  : 13-Nov-2024 10:25:24
+ * C/C++ source code generated on  : 13-Nov-2024 10:50:46
  */
 
 #ifndef _CODER_CALCEMA_MEX_H
