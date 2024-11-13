@@ -1,4 +1,4 @@
-function ema = calcEMA(data, N) %#codegen
+function ema = calcEMA(data, N) %codegen
     arguments
         data(1,100) double;
         N(1,1) uint32;
