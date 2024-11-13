@@ -1,4 +1,5 @@
-#include "sound_app.h"
+#include "stdlib.h"
+#include "stdio.h"
 #include <alsa/asoundlib.h>
 
 int main(int argc, char *argv[]) {
