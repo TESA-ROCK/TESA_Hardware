@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -g
 
 # Libraries to link
-LIBS = -lm -lasound
+LIBS = -lm -lasound -lfftw3
 
 # Target application name
 TARGET = sound_app
