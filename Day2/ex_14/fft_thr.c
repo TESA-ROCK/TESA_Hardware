@@ -15,7 +15,18 @@ void *fft_thr_fcn(void *ptr) {
         for (int i=0; i < 4096; i++) {
             tmp_buf[i] = (double)shared_buf[i]/SHRT_MAX;
         }
+
         
+        // Process FFT and store in freq_buf
+        for (int i = 0; i < 4096; i++) {
+            freq_buf[i] = tmp_buf[i];  // Here, we store the normalized buffer
+        }
+
+        // Print 3 frequency values from the spectrum
+        for (int i = 0; i < 3; i++) {
+            printf("Frequency[%d] = %.5f Hz\n", i, freq_buf[i]);  // This is an example, assuming frequency values
+        }
+
         pthread_mutex_unlock(&data_cond_mutex);
     }
 }
