@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <sqlite3.h>
 #include <time.h>
+#include "sound_detection.h" // to use share variable sound_detected
 
 // Function to get the current timestamp
 char* get_timestamp() {
@@ -42,7 +43,7 @@ void insert_timestamp(sqlite3 *db, const char *event) {
     char sql[256];
     snprintf(sql, sizeof(sql), "INSERT INTO SoundEvents (Event, Timestamp) VALUES ('%s', '%s');", event, timestamp);
     execute_sql(db, sql);
-    free(timestamp);
+    //free(timestamp);
 }
 
 // Simulated function to detect sound appearance and disappearance
@@ -66,6 +67,6 @@ int main() {
     // Simulate sound detection
     detect_sound(db);
 
-    sqlite3_close(db);
+    
     return 0;
 }
