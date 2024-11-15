@@ -7,9 +7,6 @@
 
 // #include "sound_detection.h"
 
-
-//gcc -o 1_1_Sound_detection 1_1_Sound_detection.c -lm -lsqlite3 -lasound -lpthread
-
 #define THRESHOLD 100
 #define DEVICE "plughw:2,0"
 #define PERIOD_SIZE 1024
@@ -45,7 +42,7 @@ void execute_sql(sqlite3 *db, const char *sql) {
 
 // Function to initialize the database and create the table
 void init_db(sqlite3 **db) {
-    int rc = sqlite3_open("Machine_timestamps.db", db);
+    int rc = sqlite3_open("1_1_Machine_timestamps.db", db);
     if (rc) {
         fprintf(stderr, "Can't open database: %s\n", sqlite3_errmsg(*db));
         exit(1);
@@ -163,4 +160,4 @@ int main() {
     return 0;
 }
 
-
+// 
