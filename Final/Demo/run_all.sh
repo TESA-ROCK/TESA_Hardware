@@ -10,11 +10,13 @@ gcc -o 1_1_Sound_detection 1_1_Sound_detection.c -lm -lsqlite3 -lasound -lpthrea
 gcc -o 1_2_segment_datasize 1_2_segment_datasize.c -lpaho-mqtt3c -lsqlite3 -lcjson -lasound -lm
 gcc -o 6_2_SendCodeToPi 6_2_SendCodeToPi.c -lpaho-mqtt3c -lsqlite3 -lcjson -lm
 gcc -o 7_3_Classify 7_3_Classify.c -lpaho-mqtt3c -lsqlite3 -lcjson -lm
-
+#gcc 2_2_Encode_Data.c -o 2_2_Encode_Data -lpaho-mqtt3c -lssl -lcrypto -lsqlite3 -lcjson -lpthread
+gcc -o 2_2_Encode_Data 2_2_Encode_Data.c -lpaho-mqtt3c -lssl -lcrypto -lsqlite3 -lcjson -lpthread
 
 # Run all the executables sequentially
-./1_1_Sound_detection&
+#./1_1_Sound_detection&
 ./1_2_segment_datasize&
+./2_2_Encode_Data&
 ./6_2_SendCodeToPi&
 ./7_3_Classify&
 

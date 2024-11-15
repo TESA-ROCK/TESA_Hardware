@@ -124,7 +124,15 @@ int main(int argc, char* argv[]) {
     return rc;
 }
 //data format
-// {
-//   "timestamp_6_2" : "10:37:00",
-//   "type_of_file": ".c"
-// }
+
+/*
+
+
+{
+   "timestamp_6_2" : "10:37:00",
+   "type_of_file": ".c"
+ }
+
+
+
+*/
