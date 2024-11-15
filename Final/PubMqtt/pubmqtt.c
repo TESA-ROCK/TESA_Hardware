@@ -1,7 +1,7 @@
 #include "MQTTClient.h"
 #include <string.h>
 
-#define ADDRESS     "tcp://192.168.164.139:1883"  // Replace with your broker address
+#define ADDRESS     "tcp://100.94.191.63:1883"  // Replace with your broker address
 #define CLIENTID    "ExampleClientPub"
 #define TOPIC       "test/topic"                    // Replace with your topic
 #define PAYLOAD     "Hello MQTT"
