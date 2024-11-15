@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     pthread_cond_init(&data_cond, NULL);
 
     // initialize threads
-    pthread_create(&alsa_thr, NULL, alsa_thr_fcn, "plughw:1,0");
+    pthread_create(&alsa_thr, NULL, alsa_thr_fcn, "plughw:2,0");
     pthread_create(&fft_thr, NULL, fft_thr_fcn, NULL);
 
     // waiting for all thread terminates

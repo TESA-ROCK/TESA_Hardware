@@ -14,6 +14,7 @@ void *fft_thr_fcn(void *ptr) {
         printf("Start processing\n");
         for (int i=0; i < 4096; i++) {
             tmp_buf[i] = (double)shared_buf[i]/SHRT_MAX;
+            printf("tmp_buf[%d] = %f\n", i, tmp_buf[i]);
         }
         
         pthread_mutex_unlock(&data_cond_mutex);
